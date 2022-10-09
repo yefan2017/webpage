@@ -1,0 +1,97 @@
+
+/*** general setup ***/
+* {
+    font-family: Helvetica, Arial, serif; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    background-color:bisque;
+    opacity: 0.8;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin-right: 0.5em;
+    margin-left: auto;
+    margin-bottom: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    padding: 0px; 
+    margin-left: 60%;
+    margin-top: 0px;
+    margin-right: 0px; 
+    margin-bottom: 2px;
+    border: 1px dashed blue; 
+}
+
+.col1 h2 {
+    background-color: green;
+    color: white; 
+}
+
+.col2 h2 {
+    background-color: cornflowerblue; 
+    color: white;
+}
+
+.col3 h2 {
+    background-color: coral;
+}
+
+/*** tablet mode ***/
+@media (max-width: 991px) and (min-width: 768px) {
+   section.col1 {
+    width: 45%; 
+    float: left; 
+   } 
+   section.col2 {
+    width: 45%; 
+    float: left;
+   } 
+   section.col3 {
+    width: 91%; 
+    float: left;
+   } 
+}
+
+/*** PC mode ***/
+@media (min-width: 992px) {
+   section.col1 {
+    width: 30%; 
+    float: left; 
+   } 
+   section.col2 {
+    width: 30%; 
+    float: left;
+   } 
+   section.col3 {
+    width: 30%; 
+    float: left;
+   } 
+}
+
+/*** mobile mode ***/
+@media (max-width: 767px) {
+   section.col1 {
+    width: 90%; 
+    float: left; 
+   } 
+   section.col2 {
+    width: 90%; 
+    float: left;
+   } 
+   section.col3 {
+    width: 90%; 
+    float: left;
+   } 
+    
+}

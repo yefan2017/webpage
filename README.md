@@ -1,2 +1,2 @@
 # webpage_exercise
-Practice with HTML, CSS and Javascript
+* main repository for Coursera webpage relevant course studies
