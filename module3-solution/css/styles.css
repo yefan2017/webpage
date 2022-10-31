@@ -1,0 +1,33 @@
+.food-header {
+   height: 35px; 
+   background-color: bisque;
+}
+
+.chicken-header {
+    margin-bottom: 1.2em;
+}
+
+.chicken-section{
+    background-color:bisque;
+    margin-top: 1.5em;
+    padding-top: 0px;
+}
+
+h1,h2 {
+    font-weight: bold;
+}
+
+#company-header {
+    float: left;
+    width: 200px;
+    padding: 10px 0 0 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#collapsable-nav {
+    background-color: bisque;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style: italic;
+}
